@@ -1,0 +1,17 @@
+﻿.,.,,"COPYING,AUTHORS,ChangeLog"
+bin,bin,skip,
+doc,doc,skip,
+include,include,,h
+Lib,Lib,skip,
+m4,m4,skip,
+Projects,Projects,skip,
+Projects/VC2017,include,,"rc,h"
+src,src,,"c,h,def"
+testbed,testbed,,"icc,c,h"
+utils,utils,skip,
+utils/common,utils/common,skip,"c,h"
+utils/tificc,utils/tificc,skip,"c,h,1"
+utils/transicc,utils/transicc,skip,"c,h,2"
+utils/linkicc,utils/linkicc,skip,"c,h,3"
+utils/jpgicc,utils/jpgicc,skip,"c,h,4"
+utils/psicc,utils/psicc,skip,"c,h,5"
