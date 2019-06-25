@@ -137,7 +137,7 @@ set(HHEADERS ${PUBLIC_HHEADERS} src/lcms2_internal.h)
 
 if(WIN32)
     set(HHEADERS ${HHEADERS} include/resource.h)
-    set(CSOURCES ${CSOURCES} include/lcms2.rc src/lcms2.def)
+    set(CSOURCES ${CSOURCES} include/lcms2.rc ) # src/lcms2.def
 endif()
 
 set(LIB_NAME ${PROJECT_NAME})
